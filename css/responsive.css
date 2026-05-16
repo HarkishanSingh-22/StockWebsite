@@ -1,5 +1,165 @@
+/* ================= RESPONSIVE ================= */
+
+/* LARGE TABLETS */
 @media (max-width: 992px) {
+
     .chart-div {
         grid-template-columns: 1fr !important;
     }
+
+    .chart-box {
+        min-width: 100%;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stock-div h2 {
+        font-size: 34px;
+    }
+
+}
+
+/* TABLETS */
+@media (max-width: 768px) {
+
+    /* nav .container {
+        flex-direction: column;
+        gap: 15px;
+        align-items: stretch;
+    } */
+
+    form.d-flex {
+        width: 100%;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .trade-btn {
+        width: 100%;
+    }
+
+    .chart-box {
+        padding: 16px;
+        min-height: 350px;
+        min-width: 100%;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .stock-div h2 {
+        font-size: 28px;
+    }
+
+    .stock-div p {
+        font-size: 15px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .ticker-track {
+        gap: 20px;
+    }
+
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+
+    form.d-flex {
+        gap: 12px;
+    }
+
+    .search-input {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .trade-btn {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .chart-box {
+        min-height: 300px;
+        padding: 12px;
+        border-radius: 16px;
+    }
+
+    #stock-chart {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .card {
+        padding: 16px;
+    }
+
+    .stock-name {
+        font-size: 16px;
+    }
+
+    .stock-price {
+        font-size: 18px;
+    }
+
+    .stock-time {
+        font-size: 12px;
+    }
+
+    /* .footer-top {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer {
+        padding: 50px 0 20px;
+    }
+
+    .footer-bottom {
+        margin-top: 30px;
+    } */
+
+}
+
+/* EXTRA SMALL DEVICES */
+@media (max-width: 400px) {
+
+    .stock-div h2 {
+        font-size: 24px;
+    }
+
+    .chart-box {
+        min-height: 260px;
+    }
+
+    .ticker-track span {
+        font-size: 0.75rem;
+    }
+
+    .card {
+        padding: 14px;
+    }
+
 }

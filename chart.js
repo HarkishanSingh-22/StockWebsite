@@ -1,5 +1,4 @@
 
-
 const ctx = document.getElementById("stock-chart");
 
 new Chart(ctx, {
