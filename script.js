@@ -90,7 +90,7 @@ const chartVolume = document.getElementById("stock-volume");
 
 const activeStock = document.getElementById("active-trade-name");
 
-const SecondApiKey= "LMS3RYISNQ9ZK95J"
+const SecondApiKey = "LMS3RYISNQ9ZK95J"
 
 let chart;
 
@@ -178,8 +178,8 @@ async function searchData() {
         ];
 
         const values = [
-            chart_openPrice,
-            chart_closePrice
+            Number(chart_openPrice),
+            Number(chart_closePrice)
         ];
 
         // OLD CHART DESTROY
