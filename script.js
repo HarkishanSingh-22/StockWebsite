@@ -62,22 +62,22 @@ async function getStockData(symbol, nameId, openId, closeId, timeId, imgId) {
     }
 }
 
-// window.onload = async () => {
+window.onload = async () => {
 
-//     await getStockData("BTC", "name-1", "open-1", "close-1", "time-1", "img-1");
+    await getStockData("BTC", "name-1", "open-1", "close-1", "time-1", "img-1");
 
-//     await delay(1500);
+    await delay(1500);
 
-//     await getStockData("ETH", "name-2", "open-2", "close-2", "time-2", "img-2");
+    await getStockData("ETH", "name-2", "open-2", "close-2", "time-2", "img-2");
 
-//     await delay(1500);
+    await delay(1500);
 
-//     await getStockData("AAPL", "name-3", "open-3", "close-3", "time-3", "img-3");
+    await getStockData("AAPL", "name-3", "open-3", "close-3", "time-3", "img-3");
 
-//     await delay(1500);
+    await delay(1500);
 
-//     await getStockData("TSLA", "name-4", "open-4", "close-4", "time-4", "img-4");
-// };
+    await getStockData("TSLA", "name-4", "open-4", "close-4", "time-4", "img-4");
+};
 
 
 const stockChart = document.getElementById("stock-chart").getContext("2d");
