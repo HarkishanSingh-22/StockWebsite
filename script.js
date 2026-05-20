@@ -179,7 +179,7 @@ async function searchData() {
 
         const values = [
             Number(chart_openPrice),
-            Number(chart_closePrice)
+            Number(chart_closePrice),
         ];
 
         // OLD CHART DESTROY
