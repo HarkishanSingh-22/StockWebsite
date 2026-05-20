@@ -192,7 +192,7 @@ async function searchData() {
         // NEW CHART
         chart = new Chart(stockChart, {
 
-            type: "line",
+            type: "bar",
 
             data: {
 
